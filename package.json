@@ -1,0 +1,22 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "scss:build": "sass --load-path=node_modules --quiet-deps --no-source-map src/scss/style.scss dist/css/style.css",
+  "scss:watch": "sass --watch --load-path=node_modules --quiet-deps --no-source-map src/scss/style.scss dist/css/style.css",
+  "serve": "browser-sync start --server . --files index.html dist/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "5.3",
+    "bootstrap-icons": "^1.13.2"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "sass": "^1.108.2"
+  }
+}
