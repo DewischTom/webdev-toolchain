@@ -9,11 +9,11 @@ Die Testseite zeigt ein responsives Bootstrap-Grid, zwei Buttons und zwei Bootst
 
 ## Installation von GitHub
 
-1. Auf der GitHub-Seite des Repositories unter **Code → HTTPS** die Clone-URL kopieren. `<HTTPS-URL>` und `<Repository-Name>` durch die passenden Werte ersetzen.
+1. Das öffentliche Repository klonen.
 
    ```sh
-   git clone <HTTPS-URL>
-   cd <Repository-Name>
+   git clone https://github.com/DewischTom/webdev-toolchain.git
+   cd webdev-toolchain
    ```
 
 2. Abhängigkeiten installieren und das Stylesheet erzeugen.
